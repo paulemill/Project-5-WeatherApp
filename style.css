@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 30px;
+}
+#app {
+  position: relative;
+  width: 400px;
+  height: 80px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 25px 0;
+  overflow: hidden;
+  border-radius: 45px;
+  background-color: white;
+  border: 2px solid gray;
+}
+
+#searchBar {
+  display: flex;
+  padding: 0 40px;
+  margin-bottom: 30px;
+}
+
+#searchBarInput {
+  background-color: none;
+  border: 2px solid gray;
+  border-radius: 10px;
+  outline: none;
+  width: 90%;
+  margin-right: 10px;
+  height: 30px;
+  padding: 10px;
+}
+input::placeholder {
+  opacity: 0.5;
+}
+
+#searchIcon {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#extraInfo {
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-around;
+  gap: 40px;
+  color: black;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.info p {
+  margin-top: 3px;
+}
+
+#info h3 {
+  font-size: 40px;
+}
+
+#description {
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+a {
+  text-align: center;
+  display: block;
+  margin-top: 20px;
+}
+
+.content {
+  display: none;
+}
